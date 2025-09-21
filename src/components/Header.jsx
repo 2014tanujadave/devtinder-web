@@ -1,6 +1,6 @@
 const Header = () =>{
     return(
-        <>
+  <>
   <div className="navbar bg-base-200 shadow-sm">
   <div className="flex-1">
     <a className="btn btn-ghost text-xl"> Tanuja Dev Tinder</a>
@@ -10,7 +10,7 @@ const Header = () =>{
       <div tabIndex={0} role="button" className="btn btn-ghost btn-circle avatar">
         <div className="w-10 rounded-full">
           <img
-            alt="Tailwind CSS Navbar component"
+            alt="my first devtinder application"
             src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp" />
         </div>
       </div>
@@ -28,8 +28,7 @@ const Header = () =>{
     </div>
   </div>
 </div>
-        </>
-    )
-
+</>
+)
 }
 export default Header;
